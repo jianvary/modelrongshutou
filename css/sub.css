@@ -1,0 +1,283 @@
+.border3px{border:3px solid #000;}
+.aboutOne{}
+.aboutTwo{width:1200px; height:auto; }
+.aboutTwo .left{width:330px; float:left; }
+.aboutTwo .right{width:800px; float:right;}
+.aboutTwo .right p{line-height:30px; color:#666; margin-top:20px;}
+.aboutThree{width:1200px; height:auto; float:left; border-top:1px solid #000; border-bottom:1px solid #000;}
+.aboutThree .left{width:580px; height:auto; float:left; margin-top:20px;}
+.aboutThree .left h3.one{width:390px; height:50px; background:#D93416; float:left; line-height:50px; color:#fff; font-size:24px; padding-left:10px;}
+.aboutThree .left p{width:480px; height:130px; float:left; line-height:30px; color:#666; font-size:16px; margin-top:10px;}
+.aboutThree .left h3.two{width:280px; height:50px; background:#D93416; float:left; margin-top:30px; line-height:50px; font-size:24px; color:#fff; padding-left:10px;}
+.aboutThree .right{width:580px; height:auto; float:right; margin-top:20px; margin-bottom:20px;}
+.aboutThree .right p{width:285px; height:190px; float:left; margin-left:5px; margin-bottom:5px;}
+.aboutThree .right p img{width:285px; height:190px;}
+
+.subTitle{width:1200px; height:auto;}
+.subTitle h3{width:1000px; height:auto; float:left; margin-left:150px; text-align:center; font-size:30px; line-height:40px; font-weight:bold; color:#000;}
+.subTitle h4{width:1000px; height:auto; float:left; margin-left:150px; text-align:center; font-size:20px; line-height:30px; font-weight:normal; color:#000;}
+.subTitle h5{width:900px; height:auto; float:left; margin-left:150px; text-align:center; font-size:16px; line-height:30px; font-weight:normal; color:#666;}
+
+.subTitleBg{width:1200px; height:60px; background:#D93416; color:#fff; line-height:60px; font-weight:bold; font-size:24px; text-align:center;}
+.margintop-5{margin-top:-5px;}
+
+.successNews{width:1238px; height:auto;float:left;}
+.successNews .content{width:590px; height:auto; float:left; margin-right:27px;}
+.successNews .content h3{width:590px; height:46px; background:url(/templets/pc/images/successtitle.png) no-repeat; text-align:center; line-height:46px; font-size:24px; color:#fff; margin-right:20px; float:left;}
+.successNews .content ul{width:590px; height:auto; float:left; list-style:none; }
+.successNews .content ul li.left{width:285px; height:290px; float:left;  overflow:hidden;}
+.successNews .content ul li.left span.img{width:285px; height:190px; float:left;}
+.successNews .content ul li.left span.img img{width:285px; height:190px;}
+.successNews .content ul li.left span.time{width:180px; height:55px; background:url(/templets/pc/images/successtitle2.png) no-repeat; float:left; margin-left:50px; font-size:12px; line-height:55px; text-align:center; color:#fff; margin-top:-30px;}
+.successNews .content ul li.left span.title{width:230px; height:auto; float:left; text-align:left; margin-left:30px; margin-top:20px; line-height:20px; color:#666; font-weight:bold;}
+.successNews .content ul li.left span.title a{text-decoration: none; color: #666;}
+.successNews .content ul li.right{width:285px; height:290px; float:right;  overflow:hidden;}
+.successNews .content ul li.right span.img{width:285px; height:190px; float:left;}
+.successNews .content ul li.right span.img img{width:285px; height:190px;}
+.successNews .content ul li.right span.time{width:180px; height:55px; background:url(/templets/pc/images/successtitle2.png) no-repeat; float:left; margin-left:50px; font-size:12px; line-height:55px; text-align:center; color:#fff; margin-top:-30px;}
+.successNews .content ul li.right span.title{width:230px; height:auto; float:left; text-align:left; margin-left:30px; margin-top:20px; line-height:20px; color:#666; font-weight:bold;}
+.successNews .content ul li.right span.title a{text-decoration: none; color: #666;}
+.successNews .content p{width:590px; height:10px; border-bottom:2px solid #ccc; float:left;}
+.successNews .content .list{width:590px; height:auto; margin-top:20px; float:left;}
+.successNews .content .list ul{width:240px; height:auto; margin-right:50px; float:left; }
+.successNews .content .list ul li{ float:left; line-height:24px; }
+.successNews .content .list ul li a{text-decoration: none; color: #666;}
+.successbottom{width:1213px; height:20px; border-bottom:2px solid #ccc; float:left;}
+
+.schoolNews{width:1215px; height:auto;}
+.schoolNews .left{width:840px; height:auto; float:left;}
+.schoolNews .left .imageText{width:400px; height:auto; margin-right:20px; float:left;}
+.schoolNews .left .imageText p.title{width:380px; padding-left:20px; height:30px; background:#D93416; float:left; color:#fff; line-height:30px;}
+.schoolNews .left .imageText p.img{width:400px; height:220px; float:left;}
+.schoolNews .left .imageText p.img img{width:400px; height:220px;}
+.schoolNews .left .imageText ul{list-style:none; width:400px; height:auto; float:left;}
+.schoolNews .left .imageText ul li{border-bottom:1px dashed #ccc; width:400px; float:left; line-height:40px;}
+.schoolNews .left .imageText ul li a{text-decoration: none; color: #000;}
+
+.schoolNews .right{width:350px; height:auto; float:right;}
+.schoolNews .right .nav{width:350px; border-bottom:1px solid red; height:40px; line-height:40px; text-align:center;}
+.schoolNews .right .nav p{width:100px; height:40px; background:red; margin-left:130px; color:#fff;}
+.schoolNews .right .title{width:350px; height:auto; float:left; margin-top:20px;}
+.schoolNews .right .title ul{list-style:none;}
+.schoolNews .right .title ul li{width:350px; border-bottom:1px dashed #ccc; float:left; line-height:40px; text-align:center;}
+.schoolNews .right .title ul li a{text-decoration: none; color: #000;}
+.schoolNews .right .bottom{width:350px; height:160px; float:left; margin-top:30px;}
+.schoolNews .right .bottom img{width:350px; height:160px;}
+
+.newsTitleh3{width:1200px; height:60px; background:url(/templets/pc/images/newsbgbgtitle.jpg) no-repeat; font-size:28px; font-weight:bold; color:#fff; line-height:60px; text-align:center;}
+.newsTitleh3 ul{list-style: none; width: 1000px; height: 40px; text-align: center; margin: 0 auto; line-height: 40px; }
+.newsTitleh3 ul li{width: 190px; float: left; margin-top: 10px;}
+.newsTitleh3 ul li a{text-decoration: none; color: #fff;}
+.newsTitleh3 ul li.xian{ border-right: 2px solid #fff; height: 40px; margin-top:10px;}
+.newsTitleh3 ul li.right{ margin-left: 20px; }
+
+.product{width:1235px; height:auto; overflow:hidden;}
+.product ul{width:1235px; height:auto; list-style:none;}
+.product ul li{width:385px; height:300px; float:left; margin-top:10px; margin-right:25px;}
+.product ul li img{width:385px; height:250px; float:left; borer:1px solid #fff;}
+.product ul li img:hover{border:1px solid #ccc;}
+.product ul li span{width:385px; height:50px; line-height:50px; float:left; text-align:center; font-weight:bold;}
+.product ul li span a{text-decoration:none; color:#000;}
+
+/*list*/
+.contentPage .left .list{width:800px; height:auto; float:left; text-align:left; overflow:hidden;}
+.listUl li{ width:100%; overflow:hidden; clear:both; padding:12px 0px; border-bottom:1px solid #EEE; color:#000;}
+.listUl li div.leftt{width:180px; height:120px; float:left;}
+.listUl li div.rightt{width:580px; height:120px; float:left; margin-left:30px;}
+.listUl li div.rightt a{text-decoration:none; font-size:12px; color:#000;}
+.listUl li img{ width:200px; height:120px;}
+.listUl li b a{ color:#555; font-size:12px;}
+.listUl li a{ color:#000; font-size:12px;}
+.listUl li a.preview{ width:84px; float:left; margin-right:7px; margin-bottom:3px; margin-left:10px; display:inline;}
+.listUl li a.preview img{ width:80px; display:block; padding:1px; border:1px solid #EEE; }
+.listUl li a.preview:hover img{ border:1px solid #AAA;}
+.listUl li a.title{ overflow:hidden; line-height:25px; font-size:14px; margin-left:2px; color:#000; font-weight:normal;}
+.listUl span.info{ display:block; line-height:23px; color:#555; padding-left:12px; font-size:12px;}
+.listUl span.info small{ color:#AAA; font-size:12px; margin-left:3px;}
+.listUl span.info a{ color:#690;}
+.listUl p.intro{color:#666;line-height:20px;margin-left:5px;padding-left:10px;padding-right:10px;}
+
+.contentPage .left .pages{width:800px; height:auto; float:left; text-align:left;  overflow:hidden;}
+.pageCon ul{float:left;padding:12px 0px 12px 16px; list-style:none;}
+.pageCon ul li{float:left;font-family:Tahoma;line-height:17px;margin-right:6px;border:1px solid #E9E9E9;}
+.pageCon ul li a{float:left;padding:2px 4px 2px;color:#555;display:block;}
+.pageCon ul li a:hover{color:#690;text-decoration:none;padding:2px 4px 2px;}
+.pageCon ul li.thisclass,
+.pageCon ul li.thisclass a,.pagebox ul li.thisclass a:hover{background-color:#F8F8F8;padding:2px 4px 2px;font-weight:bold;}
+.pageCon .pageinfo{line-height:21px;padding:12px 10px 12px 16px;color:#999;}
+.pageCon .pageinfo strong{color:#555;font-weight:normal;margin:0px 2px;}
+
+/***contentPage**/
+.marginTopBottom20{margin:20px auto;}
+.contentPage{width:1200px; height:auto; }
+.contentPage .left{width:800px; height:auto; float:left; margin-bottom:30px;}
+.contentPage .left .nav{width:800px; height:50px; float:left; text-align:left; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+.contentPage .left .nav p{margin-left:20px; font-size:16px; line-height:50px; color:#000; font-weight:bold;}
+.contentPage .left .nav p a{text-decoration:none; color:#000;}
+.contentPage .left .nav p a:hover{color:#666;}
+.contentPage .left .title{width:800px; height:60px; line-height:30px; float:left; margin-top:50px; font-size:24px;}
+.contentPage .left .title p{width:700px; margin-left:50px; text-align:center; overflow:hidden;}
+.contentPage .left .title p a{text-decoration:none; color:#000;}
+.contentPage .left .time{width:800px; height:20px; font-size:12px; line-height:20px; color:#000; float:left; margin-top:5px; text-align:center;}
+.contentPage .left .time a{text-decoration:none; color:#000;}
+.contentPage .left .time ul{list-style:none; width:800px; display:inline; text-align:center; float:left; margin-left:200px;}
+.contentPage .left .time ul li{ float:left;}
+.contentPage .left .content{width:800px; font-size:14px; line-height:25px; float:left; margin-top:30px;}
+.contentPage .left .content a{text-decoration:none; color: #000;}
+.contentPage .left .content a u{text-decoration:none; color: #000;}
+.contentPage .left .content a u a{text-decoration:none; color: #000;}
+.contentPage .left .content a u a u{text-decoration:none; color: #000;}
+.contentPage .right{width:350px; height:auto; float:right; margin-bottom:30px;}
+.contentPage .right .nav{width:350px; border-bottom:1px solid #ccc; height:40px; line-height:40px; text-align:center;}
+.contentPage .right .nav p{width:100px; height:40px; background:#ccc; margin-left:130px;}
+.contentPage .right .title{width:350px; height:auto; float:left; margin-top:20px;}
+.contentPage .right .title ul{list-style:none; float:left;}
+.contentPage .right .title ul li{list-style:none; width:350px; border-bottom:1px dashed #ccc;  float:left; line-height:40px; text-align:center;}
+.contentPage .right .title ul li a{text-decoration:none; color:#000;}
+
+.jiaMengA{width: 100%; height: 460px;}
+.jiaMengA img{width: 100%; height: 460px; border: none;}
+
+.jiaMengDetailedA{width: 1200px;}
+.jiaMengDetailedA dl{width: 1100px; text-align: center;}
+.jiaMengDetailedA dl dt{width: 1200px; float: left; font-weight: bold; font-size: 30px; line-height: 40px;}
+.jiaMengDetailedA dl dd{width: 1100px; float: left; font-size: 18px; line-height: 25px; margin-left: 50px; margin-top: 8px;}
+
+.jiaMengTwoPic{width: 1200px;}
+.jiaMengTwoPic .leftA{width: 560px; float: left;}
+.jiaMengTwoPic .leftA .picA{width: 560px;  float: left;}
+.jiaMengTwoPic .leftA .titleA{width: 560px; float: left; text-align: center; line-height: 30px;}
+.jiaMengTwoPic .leftA .titleA p.titleB{font-size: 18px; margin-top: 10px;}
+.jiaMengTwoPic .leftA .titleA p.titleC{font-size: 24px; font-weight: bold;}
+.jiaMengTwoPic .rightA{width: 600px; float: right;}
+.jiaMengTwoPic .rightA .topA{width: 600px;}
+.jiaMengTwoPic .rightA .topA .leftB{width: 325px; float: left;}
+.jiaMengTwoPic .rightA .topA .rightB{width: 275px; height: 435px; float: left; background: #e50012;}
+.jiaMengTwoPic .rightA .topA .rightB dl{width: 245px; text-align: left; margin-left: 30px; color: #fff;}
+.jiaMengTwoPic .rightA .topA .rightB dl dt{width: 245px; float: left; font-weight: bold; font-size: 36px; line-height: 160px;}
+.jiaMengTwoPic .rightA .topA .rightB dl dd{width: 245px; float: left; font-size: 18px; line-height: 40px;}
+.jiaMengTwoPic .rightA .bottomA{width: 600px; float: left; text-align: center; line-height: 30px;}
+.jiaMengTwoPic .rightA .bottomA p.titleB{font-size: 18px; margin-top: 10px; }
+.jiaMengTwoPic .rightA .bottomA p.titleC{font-size: 24px; font-weight: bold;  }
+
+.jiaMengNavTitleTwelve{width: 825px; height: 82px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavTitleTwelveImg.png) no-repeat; margin:0 auto; color: #ff021d; font-weight: bold; font-size: 36px; line-height: 80px; letter-spacing: 26px; overflow: hidden;}
+.jiaMengNavTitleTwelve span.fontC{width: 330px; margin-left: 28px; float: left;}
+.jiaMengNavTitleTwelve span.fontD{width: 445px; float: left; margin-left: 22px; letter-spacing: 27px;}
+
+.jiaMengNavAd{background: #e50012; height: 160px;}
+.jiaMengNavAd .bgA{background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavAdBg.png) no-repeat; height: 160px;}
+.jiaMengNavAd .bgA .leftD{width: 600px; height: 70px; line-height: 30px; color: #fcde00; font-weight: bold; font-size: 22px; text-align: right; float: left; margin-top: 50px;}
+.jiaMengNavAd .bgA .rightD{width: 520px; height: 80px; float: right; color: #e60012; margin-top: 40px; line-height: 35px;}
+.jiaMengNavAd .bgA .rightD .leftE{width: 415px; height: 80px; float: left;}
+.jiaMengNavAd .bgA .rightD .leftE .fontA{font-size: 20px;}
+.jiaMengNavAd .bgA .rightD .leftE .fontB{font-size: 26px; font-weight: bold;}
+.jiaMengNavAd .bgA .rightD .rightE{width: 30px; float: left; margin-top: 8px;}
+
+.jiaMengNavTitleEight{width: 570px; height: 82px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavTitleEightImg.png) no-repeat; margin:0 auto; color: #ff021d; font-weight: bold; font-size: 36px; line-height: 80px; letter-spacing: 25px; overflow: hidden;}
+.jiaMengNavTitleEight span.fontC{width: 250px; margin-left: 28px; float: left;}
+.jiaMengNavTitleEight span.fontD{width: 250px; float: left; margin-left: 42px;}
+
+.jiaMengNavDetailed585{width: 585px; height: 43px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavDetailedImg585.png) no-repeat; margin:0 auto; text-align: center; color: #fff; line-height: 42px; font-size: 22px; }
+
+.jiaMengBigTitleBlack{width: 1000px; height: 50px; line-height: 50px; font-weight: bold; font-size: 36px; color: #000; margin:0 auto; text-align: center;}
+
+.jiaMengProductPic{width: 1200px;}
+.jiaMengProductPic .leftF{width: 797px; height: 534px; float: left;}
+.jiaMengProductPic .rightF{width: 394px; float: right; }
+.jiaMengProductPic .rightF .topF{width: 394px; float: left;}
+.jiaMengProductPic .rightF .bottomF{width: 394px; float: left; margin-top: 10px; }
+
+.jiaMengJingDian{width: 1200px; font-size: 28px; height: 50px; line-height: 50px; text-align: center;}
+.jiaMengJingDian .boxOneG{width: 360px; height: 50px; border-left: 2px solid #000; float: left;}
+.jiaMengJingDian .boxOneG span{font-weight: bold;}
+.jiaMengJingDian .boxTwoG{width: 470px; height: 50px; border-left: 2px solid #000; float: left;}
+.jiaMengJingDian .boxTwoG span{font-weight: bold;}
+.jiaMengJingDian .boxThreeG{width: 360px; height: 50px; border-left: 2px solid #000; border-right: 2px solid #000; float: left;}
+.jiaMengJingDian .boxThreeG span{font-weight: bold;}
+
+.jiaMengNavTitleFour{width: 275px; height: 82px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavTitleFourImg.png) no-repeat; margin:0 auto; color: #ff021d; font-weight: bold; font-size: 36px; line-height: 80px; letter-spacing: 25px; overflow: hidden;}
+.jiaMengNavTitleFour span.fontC{width: 250px; margin-left: 28px; float: left;}
+
+.jiaMengDianPu{width: 1200px; }
+.jiaMengDianPu .topH{width: 1200px; float: left;}
+.jiaMengDianPu .topH p.oneH{width: 395px; float: left; }
+.jiaMengDianPu .topH p.oneH img{width: 395px;}
+.jiaMengDianPu .topH p.twoH{width: 395px; float: left; margin-left: 5px;}
+.jiaMengDianPu .topH p.twoH img{width: 395px;}
+.jiaMengDianPu .topH p.threeH{width: 395px; float: left; margin-left: 5px;}
+.jiaMengDianPu .topH p.threeH img{width: 395px;}
+.jiaMengDianPu .bottomH{width: 1200px; float: left; margin-top: 5px;}
+.jiaMengDianPu .bottomH p.fourH{width: 395px; float: left; }
+.jiaMengDianPu .bottomH p.fourH img{width: 395px;}
+.jiaMengDianPu .bottomH p.fiveH{width: 340px; float: left; margin-left: 5px;}
+.jiaMengDianPu .bottomH p.fiveH img{width: 340px;}
+.jiaMengDianPu .bottomH p.sixH{width: 150px; float: left; margin-left: 5px;}
+.jiaMengDianPu .bottomH p.sixH img{width: 150px;}
+.jiaMengDianPu .bottomH p.sevenH{width: 295px; float: left; margin-left: 5px;}
+.jiaMengDianPu .bottomH p.sevenH img{width: 295px;}
+
+.jiaMenglistNavTitle{width:1200px; height:370px; overflow:hidden; border-right:1px dashed #000;}
+.jiaMenglistNavTitle .leftI{width: 360px; float: left; margin-top: 15px;}
+.jiaMenglistNavTitle .rightI{width: 810px; float: right;}
+.jiaMenglistNavTitle .rightI p{width:258px; height:370px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMenglistNavTitleImgBg.png) no-repeat; background-position: center; border-left:1px dashed #000; float:left; margin-right:10px;}
+.jiaMenglistNavTitle .rightI p span.titleI{width:258px; height:160px; float:left; line-height:35px; font-size:26px; font-weight:bold; overflow:hidden; text-align:center; color: #fff; margin-top: 70px; float: left;}
+.jiaMenglistNavTitle .rightI p span.listI{width:190px; height:160px; float:left; line-height:22px; font-size:16px;  text-align:center; margin-left: 35px; float: left; margin-top: 5px;}
+
+.jiaMengNavTitleSeven{width: 466px; height: 82px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavTitleSevenImg.png) no-repeat; margin:0 auto; color: #ff021d; font-weight: bold; font-size: 36px; line-height: 80px; letter-spacing: 27px; overflow: hidden;}
+.jiaMengNavTitleSeven span.fontC{width: 466px; margin-left: 26px; float: left;}
+
+.jiaMengNavDetailed456{width: 456px; height: 43px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavDetailed456.png) no-repeat; margin:0 auto; text-align: center; color: #fff; line-height: 42px; font-size: 22px; }
+
+.jiaMengNavDetailed400{width: 400px; height: 43px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavDetailed400.png) no-repeat; margin:0 auto; text-align: center; color: #fff; line-height: 42px; font-size: 22px; }
+
+.jiaMengFourYouXi{width: 1200px; height: 270px; border-top: 1px solid #999; border-bottom: 1px solid #999;}
+.jiaMengFourYouXi .boxJ{width: 545px; height: 100px; float: left; margin:25px 40px 0 10px;}
+.jiaMengFourYouXi .boxJ .leftJ{background: url(http://www.rongshutou.net/templets/pc/images/jiaMengFourYouXiBg.png) no-repeat; height: 60px; width: 60px; text-align: center; line-height: 58px; color: #fff; font-size: 36px; float: left;}
+.jiaMengFourYouXi .boxJ .rightJ{ width: 455px; height: 100px; float: right; }
+.jiaMengFourYouXi .boxJ .rightJ dl{ width: 455px; }
+.jiaMengFourYouXi .boxJ .rightJ dl dt{width: 455px; float: left; font-weight: bold; font-size: 24px; line-height:32px;}
+.jiaMengFourYouXi .boxJ .rightJ dl dd{width: 455px; float: left; font-size: 20px; line-height: 30px;}
+
+.jiaMengNavBigPicK{width: 1180px; height: 260px; border: 10px solid #e50012;}
+.jiaMengNavBigPicK .leftK{width: 210px; height: 210px; margin:33px 20px; float: left;}
+.jiaMengNavBigPicK .rightK{width: 880px; float: left; margin: 50px 20px; line-height: 50px; font-size: 36px; font-weight: bold; color:#e50012 }
+
+.jiaMengNavShuZhi{width: 1200px; height: 105px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavShuZhiK.png) no-repeat;}
+
+.jiaMengNavShuZhiDetailed{width: 1200px; height: 160px; }
+.jiaMengNavShuZhiDetailed .boxL{ width: 250px; height: 160px; float: left; margin-right: 60px;}
+.jiaMengNavShuZhiDetailed .boxL dl{width: 250px;}
+.jiaMengNavShuZhiDetailed .boxL dl dt{color: #e50012; font-weight: bold; font-size: 16px; line-height: 32px;}
+.jiaMengNavShuZhiDetailed .boxL dl dd{color: #666; font-size: 14px; line-height: 20px;}
+.jiaMengNavShuZhiDetailed .boxLRight{ width: 250px; height: 160px; float: right;}
+.jiaMengNavShuZhiDetailed .boxLRight dl{width: 250px;}
+.jiaMengNavShuZhiDetailed .boxLRight dl dt{color: #e50012; font-weight: bold; font-size: 16px; line-height: 30px;}
+.jiaMengNavShuZhiDetailed .boxLRight dl dd{color: #666; font-size: 14px; line-height: 22px;}
+
+.jiaMengNavShuZhiTwo{width: 1200px; height: 105px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavShuZhiTwoK.png) no-repeat;}
+
+.jiaMengTenBigSupport{width: 1200px;}
+.jiaMengTenBigSupport .leftM{width: 570px; height: 530px; float: left;}
+.jiaMengTenBigSupport .leftM .leftN{width: 35px; height: 485px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengTenBigSupport1.png) no-repeat; float: left;}
+.jiaMengTenBigSupport .leftM .rightN{width: 525px; float: left; margin-left: 3px;}
+.jiaMengTenBigSupport .leftM .rightN .boxN{height: 80px; width: 525px; float: left; margin-bottom: 32px;}
+.jiaMengTenBigSupport .leftM .rightN .boxN dl{width: 525px;}
+.jiaMengTenBigSupport .leftM .rightN .boxN dl dt{color: #000; font-weight: bold; font-size: 18px; line-height: 30px;}
+.jiaMengTenBigSupport .leftM .rightN .boxN dl dd{color: #666; font-size: 14px; line-height: 22px;}
+.jiaMengTenBigSupport .rightM{width: 570px; height: 530px; float: right;}
+.jiaMengTenBigSupport .rightM .leftN{width: 35px; height: 485px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengTenBigSupport2.png) no-repeat; float: left;}
+.jiaMengTenBigSupport .rightM .rightN{width: 525px; float: left; margin-left: 3px;}
+.jiaMengTenBigSupport .rightM .rightN .boxN{height: 80px; width: 525px; float: left; margin-bottom: 32px;}
+.jiaMengTenBigSupport .rightM .rightN .boxN dl{width: 525px;}
+.jiaMengTenBigSupport .rightM .rightN .boxN dl dt{color: #000; font-weight: bold; font-size: 18px; line-height: 30px;}
+.jiaMengTenBigSupport .rightM .rightN .boxN dl dd{color: #666; font-size: 14px; line-height: 22px;}
+
+.jiaMengNavDetailed730{width: 730px; height: 43px; background: url(http://www.rongshutou.net/templets/pc/images/jiaMengNavDetailedImg730.png) no-repeat; margin:0 auto; text-align: center; color: #fff; line-height: 42px; font-size: 22px; }
+
+.jiaMengChoice{width:1200px; height:465px; overflow:hidden; border-right:1px dashed #000;}
+.jiaMengChoice .boxO{width: 360px; height: 465px; float: left; border-left:1px dashed #000; margin-right:30px;}
+.jiaMengChoice .boxO .topO{width:360px; height:268px;  float:left;  text-align: center;}
+.jiaMengChoice .boxO .bottomO span.titleO{width:360px; height:50px; float:left; line-height:35px; font-size:26px; font-weight:bold; overflow:hidden; text-align:center; color: #000; margin-top: 40px; float: left;}
+.jiaMengChoice .boxO .bottomO span.listO{width:330px; height:110px; float:left; line-height:22px; font-size:16px;  text-align:center; margin-left: 35px; float: left; margin-top: 5px;}
+.jiaMengChoice .boxO .rightO{ margin-left: 20px; }
+
