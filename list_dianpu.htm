@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{dede:field.seotitle /}_{dede:field.title/}</title>
+    <meta name="keywords" content="{dede:field name='keywords'/}" />
+    <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+    <link href="/templets/pc/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/templets/pc/css/sub.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+{dede:include filename="head.htm"/}
+
+{dede:include filename="banner.htm"/}
+
+<div class="cont">
+    <div class="wrap">
+        <div class="paititle marginTop20">
+        	<p class="h3">店铺形象</p>
+            <p class="top">你每一次搜索【鸡煲加盟】项目，8成都能见到我们身影</p>
+            <p class="bottom">GET RID OF THE PROJECT TO CHOOSE ALLBRGIES, THEY MOVE TORWARD BECOME A CHICKEN POT FOOD INDUSTRY WEALTH LEGEND
+            </p>
+        </div>
+    </div>      
+</div>
+
+<div class="cont">
+    <div class="tuImg1200 marginTopBottom20">
+        {dede:arclist type='image.' typeid='3' row='1' flag='h'}
+            <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                [field:image /]
+            </a>
+        {/dede:arclist}
+    </div>
+</div>
+
+<div class="cont">
+	<div class="wrap">
+		<div class="product">
+			<ul>
+                {dede:arclist type='image.' typeid='3' row='6' titlelen='36'}
+					<li>
+						<a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                            [field:image /]
+                        </a>
+						<span>
+                            <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                                [field:title /]
+                            </a>
+                        </span>
+					</li>
+                {/dede:arclist}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="cont marginTop20">
+    <div class="wrap">
+        <div class="subBox">
+            <div class="subLeft">
+                <p class="title">成</p>
+                <p class="titleEn">[cheng]</p>
+            </div>
+            <div class="subMiddle">
+                <p class="titleEn">
+                    SUCCESSFUL CASE
+                </p>
+                <p class="title">
+                    成功案例
+                </p>
+                <p class="titleB">
+                    GET RID OF THE PROJECT TO CHOOSE ALLERGIES, THEY MOVE FORWARD, BECOME A CHICKEN POT FOOD INDUSTRY WEALTH LEGENG
+                </p>
+            </div>
+            <div class="subRight">
+                <p class="title">
+                    摆脱选择过敏征，勇往直前，成为鸡煲美食界财富传奇
+                </p>
+                <p class="phone">
+                    4008-016-163
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cont">
+    <div class="wrap">
+        <div class="paititle marginTopBottom30">
+            <p class="top">摆脱项目选择过敏征，他们勇往直前，成为鸡煲美食界财富传奇</p>
+            <p class="bottom">GET RID OF THE PROJECT TO CHOOSE ALLBRGIES, THEY MOVE TORWARD BECOME A CHICKEN POT FOOD INDUSTRY WEALTH LEGEND
+            </p>
+        </div>
+    </div>      
+</div>
+
+{dede:include filename="tongSixSuccess.htm"/}
+
+{dede:include filename="tongLiuYanTitle.htm"/}
+
+{dede:include filename="liuyan.htm"/}
+{dede:include filename="footer.htm"/} 
+
+</body>
+</html>
+

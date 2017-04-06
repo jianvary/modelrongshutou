@@ -1,0 +1,216 @@
+<style>
+.footJiBg{background:url(/templets/pc/images/footji.png); height:500px;}
+</style>
+
+<div class="cont footer">
+    <div class="wrap footJiBg">
+        <div class="footeNews">
+            <div class="footeNewsOne">
+                <ul>
+                    <li class="xian">
+                        <a href="/about/">
+                            关于我们
+                        </a>
+                    </li>
+                    <li class="xian">
+                        <a href="/chanpinzhanshi/">
+                            特色鸡煲
+                        </a>
+                    </li>
+                    <li class="xian">
+                        <a href="/xinwenbaodao/">
+                            新闻动态
+                        </a>
+                    </li>
+                    <li class="xian">
+                        <a href="/chenggonganli/">
+                            合作优势
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lianxiliuyan/">
+                            联系我们   
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footeNewsTwo">
+                <ul>   
+                    <li>
+                        <a href="/about/index.html#yinJi" title="缘起印记">
+                            缘起印记
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/about/index.html#introduction" title="企业简介">
+                            企业简介
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/about/index.html#future" title="使命愿景">
+                            使命愿景
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="/chanpinzhanshi/" title="经典鸡煲">
+                            经典鸡煲
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chanpinzhanshi/" title="海鲜鸡煲">
+                            海鲜鸡煲
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chanpinzhanshi/" title="新增产品">
+                            新增产品
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="/xinwenbaodao/hezuodongtai/" title="合作动态">
+                            合作动态
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/xinwenbaodao/pinpaibaodao/" title="品牌报道">
+                            品牌报道
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/xinwenbaodao/kaidianzhinan/" title="开店指南">
+                            开店指南
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="/chenggonganli/" title="品牌优势">
+                            品牌优势
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chenggonganli/" title="市场优势">
+                            市场优势
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chenggonganli/" title="产品优势">
+                            产品优势
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chenggonganli/" title="盈利预算">
+                            盈利预算
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chenggonganli/" title="服务承诺">
+                            服务承诺
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chenggonganli/" title="合作介绍">
+                            合作介绍
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="/lianxiliuyan/index.html#contact" title="联系方式">
+                            联系方式
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lianxiliuyan/index.html#message" title="在线留言">
+                            在线留言
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footeNewsThree">
+                芳村榕树头Banyan head Chicken soup版权所有 广州市雪中送炭餐饮管理有限公司
+                备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16129067号-2</a>
+                创业有风险，投资需谨慎 
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div class="cont diBuColor">
+    <div class="wrap">
+        <div class="diBu">
+            友情链接：{dede:flink linktype="2" row="40"}[field:link /]{/dede:flink} 
+        </div>
+    </div>
+</div>
+
+<div class="cont diBuColor">
+    <div class="wrap">
+        <div class="diBu">
+            <div class="diBuLeft">
+                99%的创业者通过留言或咨询成功创业  马上留言/抢优惠加盟资格  
+                <a href="/lianxiliuyan/" title="留言">点击留言</a>
+            </div>
+            <div class="diBuRight">
+                合作热线：4008-016-163 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+    $.fn.toTop = function(options) {
+        var defaults = {
+            showHeight: 150,
+            speed: 1000
+        };
+        var options = $.extend(defaults, options);
+        $("body").prepend("<div id='totop'><a></a></div>");
+        var $toTop = $(this);
+        var $top = $("#totop");
+        var $ta = $("#totop a");
+        $toTop.scroll(function() {
+            var scrolltop = $(this).scrollTop();
+            if (scrolltop >= options.showHeight) {
+                $top.show()
+            } else {
+                $top.hide()
+            }
+        });
+        $ta.hover(function() {
+            $(this).addClass("cur")
+        }, function() {
+            $(this).removeClass("cur")
+        });
+        $top.click(function() {
+            $("html,body").animate({
+                scrollTop: 0
+            }, options.speed)
+        })
+    }
+});
+$(function() {
+    $(window).toTop({
+        showHeight: 100,
+        speed: 500
+    })
+});
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ff14b5e130e042ad186be6a3f892906";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=10388558"></script>

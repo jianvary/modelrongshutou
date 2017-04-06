@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{dede:field.seotitle /}_{dede:field.title/}</title>
+    <meta name="keywords" content="{dede:field name='keywords'/}" />
+    <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+    <link href="/templets/pc/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/templets/pc/css/sub.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+{dede:include filename="head.htm"/}
+
+{dede:include filename="banner.htm"/}
+
+	<div class="cont">
+    <div class="wrap">
+        <div class="subBox">
+            <div class="subLeft">
+                <p class="title">
+                    <a name="one">
+                        特
+                    </a>
+                </p>
+                <p class="titleEn">[te]</p>
+            </div>
+            <div class="subMiddle">
+                <p class="titleEn">
+                    CHARACTERISTIC
+                </p>
+                <p class="title">
+                    特色鸡煲
+                </p>
+                <p class="titleB">
+                    I CHOOSE TO USE THE CHICKEN SOUP TREAT BUSY LIFE PEEP THE CHICKEN'S WORLD, CAN SEE THE WEALTH OF OPPORTUNITY.
+                </p>
+            </div>
+            <div class="subRight">
+                <p class="title">
+                    我选择用鸡煲犒劳忙碌的生活 窥视鸡的世界，看见财富的机会
+                </p>
+                <p class="phone">
+                    4008-016-163
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cont">
+    <div class="wrap">
+        <div class="listRowTuWen marginTopBottom20">
+            <div class="left">
+                {dede:arclist row=1 type='image.' typeid='3' flag='h'}
+                    <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]" name="two">
+                        [field:image /]
+                    </a>
+                {/dede:arclist}
+            </div>
+            <div class="right">
+                {dede:arclist row=3 type='image.' typeid='3' flag='c'}
+                <p>
+                    <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                        [field:image /]
+                    </a>
+                </p>
+                {/dede:arclist}
+                <p>
+                    {dede:arclist row=1 type='image.' typeid='3' }
+                    <span class="title">
+                        <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                        [field:title /]
+                        </a>
+                    </span>
+                    <span class="content">
+                        [field:description function='cn_substr(@me,60)'/]...
+                    </span>
+                    <span class="more">
+                         <a title="[field:title function='htmlspecialchars(@me)'/] " href="[field:arcurl /]">
+                         VIEW MORE +
+                         </a>
+                    </span>
+                    {/dede:arclist}
+                </p>
+                <p>
+                    {dede:arclist row=1 type='image.' typeid='3' flag='c' limit='3,1'}
+                        <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                        [field:image /]
+                        </a>
+                    {/dede:arclist}
+                </p>
+                <p>
+                    {dede:arclist row=1 type='image.' typeid='3' limit='2,1' }
+                    <span class="title">
+                        <a title="[field:title function='htmlspecialchars(@me)'/]" href="[field:arcurl /]">
+                        [field:title /]
+                        </a>
+                    </span>
+                    <span class="content">
+                        [field:description function='cn_substr(@me,60)'/]...
+                    </span>
+                    <span class="more">
+                         <a title="[field:title function='htmlspecialchars(@me)'/] " href="[field:arcurl /]">
+                         VIEW MORE +
+                         </a>
+                    </span>
+                    {/dede:arclist}
+                </p>
+            </div>
+        </div><!-- listRowTuWen -->
+    </div>
+</div>
+
+<div class="cont">
+	<div class="wrap">
+		<div class="product">
+			<ul>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product1.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product2.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product3.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product4.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product5.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+				<li>
+					<a href="#"><img src="/templets/pc/images/product6.jpg" /></a>
+					<span><a href="#">芳村榕树头鸡煲</a></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+{dede:include filename="tongLiuYanTitle.htm"/}
+
+{dede:include filename="liuyan.htm"/}
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>
+
